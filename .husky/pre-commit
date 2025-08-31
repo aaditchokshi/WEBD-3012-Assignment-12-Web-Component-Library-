@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm test
+npx --no-install lint-staged && npm test
+npx --no-install lint-staged && npm test
+npx --no-install lint-staged && npm test -- --watchAll=false
+npx --no-install lint-staged && npm test -- --watchAll=false
