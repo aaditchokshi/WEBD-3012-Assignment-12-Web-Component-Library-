@@ -19,6 +19,27 @@ The library is containerized using **Docker** and served via **Nginx** on **loca
 ## Requirements
 
 - Docker 20+
+- Node.js 18+ (for local development if needed)
+- npm 9+ (for local development if needed)
+
+---
+
+## Features & Assignment Requirements
+
+- Fully responsive UI components
+- Default and disabled states implemented for all components
+- Components included:
+  - **Button**
+  - **Label**
+  - **Text**
+  - **Table**
+  - **Dropdown**
+  - **RadioButton**
+  - **Hero Image**
+  - **Card**
+- Storybook stories for all components
+- Tests for all components using React Testing Library
+- Dockerized for easy deployment
 
 ---
 
@@ -27,4 +48,4 @@ The library is containerized using **Docker** and served via **Nginx** on **loca
 1. Build the Docker image:
 
    ```bash
-   docker build -t ui-garden .
+   docker build -t chokshi_aadit_ui_garden .
